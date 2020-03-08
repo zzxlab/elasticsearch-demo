@@ -1,0 +1,28 @@
+server:
+  port: 8080
+#spring:
+#  elasticsearch:
+#    jest:
+#      uris: http://192.168.183.129:9200
+#      username: elastic
+#      password: elastic
+#spring:
+#  data:
+#    elasticsearch:
+#      cluster-name: my-application
+#      cluster-nodes: 192.168.183.129:9200
+#      repositories:
+#        enabled: true
+#elasticsearch:
+#  host: 192.168.183.129
+#  port: 9300
+#  cluster-name: my-application
+#  user:name: elastic:elastic
+spring:
+  elasticsearch:
+    rest:
+#      uris: es-cn-0pp1jw7rw000t8kku.public.elasticsearch.aliyuncs.com:9200
+      username: elastic
+#      password: BdcDept4@es
+      uris: http://192.168.183.129:9200
+      password: elastic
